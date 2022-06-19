@@ -1,0 +1,352 @@
+html, body {
+	width: 100%;
+	height:150%;
+  }
+  
+  body {
+	  background: linear-gradient(-45deg, #CC3300, black, brown, #FFCC99);
+	  background-size: 400% 400%;
+	  animation: gradient 15s ease infinite;
+  }
+  
+  @keyframes gradient {
+	  0% {
+		  background-position: 0% 50%;
+	  }
+	  50% {
+		  background-position: 100% 50%;
+	  }
+	  100% {
+		  background-position: 0% 50%;
+	  }
+  }
+
+
+h1 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 2em;
+    color: white;
+    width: auto;
+    margin-top: 220px;
+    background:#202020; 
+    padding: 20px;
+    -webkit-text-stroke: 1px #bbbb99;
+	-webkit-text-fill-color: white;
+  font-weight: bold;
+  
+    
+}
+#navbanner {
+  position: absolute;
+  width: 65em;
+  left: 300px;
+  top: 70px;
+}
+  
+nav{
+  background: orangered;
+  padding: auto;
+}
+nav::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+.menu{
+  margin-right: 80px;
+  float: right;
+}
+.menu li{
+  display: inline-block;
+  list-style: none;
+  line-height: 20px;
+  font-size: 15px;
+  left: -50px;
+  top: -150px;
+  position: relative;
+  font-family: 'Electrolize', sans-serif;
+
+}
+.menu li a{
+  display: inline-block;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: x-large;
+  
+  
+}
+.menu li a:hover{
+  background: red;
+  color: white;
+  
+ 
+
+}
+.menu li:hover .dropdown{
+  display: block;
+}
+.dropdown{
+  position: absolute;
+  background: black;
+  display: none;
+  top: 40px;
+
+}
+.dropdown li{
+  display: block;
+  list-style: none;
+  font-size: 15px;
+  text-align: justify;
+  top: 10px;
+}
+.logo{
+  text-decoration: none;
+  color: #ffff;
+  font-size: 30px;
+  font-family: 'Trade Winds', cursive;
+  padding: 22px 100px;
+  width: 20%;
+  float: left;
+      
+}
+#bethesda {
+    position: relative;
+     width: 1200px;
+     height: 180;
+     margin: 100px auto;
+     background: #000;
+     align-items: left, center;
+     outline: solid #f2f2f2;
+ }
+
+#xbox {
+     font-weight: bold;
+     position: absolute;
+     text-align: justify;
+     margin-left: 20px;
+     margin-right: 170px;
+     margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    color: white;
+    
+ }
+
+ #arrowlink {
+    position: absolute;
+     width: 1200px;
+     height: 150;
+     margin: auto;
+     background: fixed;
+     align-items: right, center;
+     transform: rotate(7deg);
+     margin-left: 750px;
+     margin-top: 85px;
+ }
+
+  #arrowlink2 {
+    position: absolute;
+     width: 1200px;
+     height: 150;
+     margin: auto;
+     background: fixed;
+     align-items: right, center;
+     transform: rotate(7deg);
+     margin-left: 750px;
+     margin-top: 85px;
+ }
+
+  #arrowlink3 {
+    position: absolute;
+     width: 1200px;
+     height: 150;
+     margin: auto;
+     background: fixed;
+     align-items: right, center;
+     transform: rotate(7deg);
+     margin-left: 750px;
+     margin-top: 85px;
+ }
+
+ 
+.update2 {
+position: relative;
+width: 1200px;
+margin: 100px auto;
+background: #000;
+align-items: left, center;
+outline: solid #f2f2f2;
+}
+#xboxnews{
+    font-weight: bold;
+     position: absolute;
+     text-align: justify;
+     margin-left: 20px;
+     margin-right: 170px;
+     margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    color: white;
+     
+}
+.update3
+{
+position: relative;
+width: 1200px;
+margin: 100px auto;
+background: #000;
+align-items: left, center;
+outline: solid #f2f2f2;
+}
+#nintendonews{
+    font-weight: bold;
+     position: absolute;
+     text-align: justify;
+     margin-left: 20px;
+     margin-right: 170px;
+     margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    color: white;
+     
+}
+.update4
+{
+position: relative;
+width: 1200px;
+margin: 100px auto;
+background: #000;
+align-items: left, center;
+outline: solid #f2f2f2;
+}
+#sonynews{
+    font-weight: bold;
+     position: absolute;
+     text-align: justify;
+     margin-left: 20px;
+     margin-right: 170px;
+     margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    color: white;
+     
+}
+.update5
+{
+position: relative;
+width: 1200px;
+margin: 100px auto;
+background: #000;
+align-items: left, center;
+outline: solid #f2f2f2;
+}
+#amkettenews{
+    font-weight: bold;
+     position: absolute;
+     text-align: justify;
+     margin-left: 20px;
+     margin-right: 170px;
+     margin-top: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    color: white;
+}
+	  
+	#logopic {
+	  position: absolute;
+	  top: -50px;
+	  left: -20px;
+	  width: 300px;
+      padding: 47px;
+
+	}
+
+#arrowlink4 {
+    position: absolute;
+     width: 1200px;
+     height: 150;
+     margin: auto;
+     background: fixed;
+     align-items: right, center;
+     transform: rotate(7deg);
+     margin-left: 750px;
+     margin-top: 85px;
+ }
+
+ #arrowlink5 {
+    position: absolute;
+     width: 1200px;
+     height: 150;
+     margin: auto;
+     background: fixed;
+     align-items: right, center;
+     transform: rotate(7deg);
+     margin-left: 750px;
+     margin-top: 85px;
+ }
+
+ :root {
+  --size: 150px;
+  --radius: calc(var(--size) * 20 / 100);
+}
+
+
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+.image-card {
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(--radius);
+  position: relative;
+  background-size: cover;
+  margin: calc(var(--size) * 20 / 100);
+  top: -250px;
+}
+.image-card:before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-image: inherit;
+  background-size: cover;
+  border-radius: var(--radius);
+  z-index: -1;
+  filter: blur(12px);
+  opacity: 0.6;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+/* ----------------------------------------------
+ * Generated by Animista on 2017-3-23 18:48:41
+ * http://animista.net
+ * T: @cssanimista
+ * ---------------------------------------------- */
+
+@-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
+
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
+
+h2 {
+  font-weight: 400;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Electrolize', sans-serif;
+  position: absolute;
+  top: 1900px;
+  left: 230px;
+}
+
+
